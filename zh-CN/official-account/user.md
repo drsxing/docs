@@ -19,13 +19,13 @@ $users = $app->user->select([$openId1, $openId2, ...]);
 ## 获取用户列表
 
 ```php
-$app->user->list($nextOpenId = null);  // $nextOpenId 可选
+$app->user->lists($nextOpenId = null);  // $nextOpenId 可选
 ```
 
 示例：
 
 ```php
- $users = $app->user->list();
+ $users = $app->user->lists();
 
 // result
  {
